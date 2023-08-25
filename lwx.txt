@@ -1,0 +1,151 @@
+
+conda create -c conda-forge -n mindspore_py37 -c conda-forge python=3.7.5
+activate mindspore_py37
+
+conda install mindspore-cpu -c mindspore -c conda-forge
+
+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
+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
+export GLOG_v=3
+python glm2.py
+
+export GLOG_v=3
+python chatglm2.py
+
+https://github.com/mindspore-courses/step_into_llm/pull/4
+
+python a.py 
+验证是否成功安装
+python -c "import mindspore;mindspore.run_check()"
+
+MindSpore version:  2.0.0rc1
+
+git clone 网址
+pip install git+https://github.com/mindspore-lab/mindnlp.git
+conda install git+https://github.com/mindspore-lab/mindnlp.git
+pip uninstall mindformers 
+
+sh run_standalone.sh /home/ma-user/work/mindformers/configs/mae/run_mae_vit_base_p16_224_800ep.yaml 0 train
+
+# pwd
+/workspace
+# cd ..
+# cd code
+pip install mindformers-1.0.0.dev202307-py3-none-any.whl
+pip install download
+nlpcc2016kbqa
+pip install d2l -i https://pypi.douban.com/simple/
+pip install --default-timeout=100  mindnlp -i http://pypi.douban.com/simple/ --trusted-host=pypi.douban.com/simple
+
+pip install --default-timeout=100 mindnlp 
+export PATH=/home/ma-user/work/cmake-3.26.0-linux-aarch64/bin:$PATH
+在Terminal下使用Linux命令
+wget http://www.
+unzip Ascend310_infer.zip
+unzip dataset.zip
+返回到上一层目录: cd ..
+要返回到根目录在命令行输入：cd \
+cd cyclegan_ms/outputs/imgs
+cd CycleGAN_for_FontDesign/data/
+cd dataset
+python train.py
+bash scripts/run_train_ascend.sh dataset/dataset 200 1 300
+bash run_train_ascend.sh dataset/dataset 200 1 300
+
+conda remove -n mindspore_py38 --all
+
+epoch: 0, current epoch percent: 1.000, step: 2745
+
+项目名称： 算法风格迁移
+
+cd CycleGAN/outputs/
+cd CycleGAN_for_FontDesign
+cd cyclegan_ms
+cd cyclegan_ms/outputs/imgs/
+zip -r imgs.zip imgs
+
+wget -O dataset.zip ‘https://openi.pcl.ac.cn/attachments/0bc7c811-f78e-4da9-9c44-ad405e4b2611?type=1’
+
+https://openi.pcl.ac.cn/attachments/0bc7c811-f78e-4da9-9c44-ad405e4b2611?type=1
+
+最耗时的18.8min
+
+pwd 显示当前路径
+./   相对路径
+/    绝对路径
+zip -r test_img.zip test_img
+
+mv * ../  
+Evaluation
+python eval.py --platform Ascend --dataroot ./data/horse2zebra/ --G_A_ckpt ./outputs/ckpt/G_A_200.ckpt --G_B_ckpt ./outputs/ckpt/G_B_200.ckpt
+
+用的是启智 mindspore 1.8.1
+
+zip -r 100.zip 100
+zip -r outputs100.zip outputs100
+mox.file.copy('/home/ma-user/work/CKP_1-3_2745.ckpt', 'obs://bucket_name/CKP_1-3_2745.ckpt')
+
+classic token码：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
+
+git clone git://github.com/lwx2304/AI_introduction.git
+
+git clone https://github.com/lwx2304/AI_introduction.git
+
+
+自动问答数据URL:
+数据集
+https://ascend-professional-construction-dataset.obs.cn-north-4.myhuaweicloud.com:443/NLP/data.zip
+辅助代码
+https://ascend-professional-construction-dataset.obs.cn-north-4.myhuaweicloud.com:443/NLP/src.zip
+
+
+gcn分类URL:
+https://ascend-professional-construction-dataset.obs.cn-north-4.myhuaweicloud.com:443/NLP/gcn.zip
+MobaXterm
+
+etrans
+
+conda create -n ms_nightly python=3.8
+activate ms_nightly 
+jupyter notebook --notebook-dir E:\juputerfile
+
+mindstudio_sentiment_analysis
+
+ssh://ma-user@dev-modelarts-cnnorth4.huaweicloud.com:30048
+
+C:\Program Files\Huawei\MindStudio 6.0.RC1
+
+bash scripts/run_train_ascend.sh ./data/dataset 100 1 300
+bash scripts/run_train_ascend.sh ./data/dataset 60 1 300
+
+
+1. 昇思MindSpore基本介绍
+【参考文档】
+https://www.mindspore.cn/tutorials/zh-CN/r2.0/beginner/introduction.html
+
+2. MindSpore迁移指南和实践
+【参考文档】
+https://www.mindspore.cn/docs/zh-CN/r2.0/migration_guide/overview.html
+【视频指导】https://openi.org.cn/html/video/jixun/2022/0808/39.html
+
+3. MindSpore分布式并行
+【参考文档】
+https://www.mindspore.cn/tutorials/experts/zh-CN/r2.0/parallel/introduction.html
+【视频指导】
+https://www.bilibili.com/video/BV1VN41117AG/?spm_id_from=333.999.0.0&vd_source=b50b2685b7e23ccff0b04224cc01cc3a
+
+4. MindSpore版《动手学深度学习》
+【文字版课程内容】
+https://github.com/mindspore-courses/d2l-zh
+【可运行代码】
+https://openi.pcl.ac.cn/mindspore-courses/d2l-mindspore
+
+5. 创新训练营-CV版
+【课件及代码】
+https://github.com/mindspore-courses/mindspore-innovation-bootcamp-CV
+
+6. 大模型技术公开课
+【课件及代码】
+https://github.com/mindspore-courses/step_into_chatgpt
+【课程视频】
+https://space.bilibili.com/526894060/channel/seriesdetail?sid=3293489
